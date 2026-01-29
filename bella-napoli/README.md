@@ -1,119 +1,151 @@
-# Bella Napoli - Landing Page Ristorante
+Bella Napoli – Restaurant Landing Page
 
-Un sito web moderno e professionale per un ristorante italiano, con design responsive e animazioni fluide.
+A modern and professional website for an Italian restaurant, with responsive design and smooth animations.
 
-## 🎨 Features
+🎨 Features
 
-- **Design Moderno e Accattivante**: Layout professionale con gradiente colori caldi
-- **Completamente Responsive**: Funziona perfettamente su desktop, tablet e mobile
-- **Animazioni Smooth**: Transizioni fluide e effetti hover
-- **SEO-Ready**: Struttura HTML ottimizzata per i motori di ricerca
-- **Performance Ottimizzate**: Codice pulito e leggero
-- **Form di Prenotazione**: Sistema di prenotazione tavoli funzionale
+Modern and Attractive Design: Professional layout with warm color gradients
 
-## 📋 Sezioni
+Fully Responsive: Works perfectly on desktop, tablet, and mobile
 
-1. **Navigation Bar**: Menu di navigazione fisso con logo
-2. **Hero Section**: Sezione principale con call-to-action
-3. **Features**: Caratteristiche principali del ristorante
-4. **Menu**: Showcase dei piatti principali con prezzi
-5. **About**: Storia e valori del ristorante
-6. **Gallery**: Galleria fotografica
-7. **Contact**: Form di prenotazione e informazioni contatto
-8. **Footer**: Link e informazioni aggiuntive
+Smooth Animations: Fluid transitions and hover effects
 
-## 🚀 Come mettere online su GitHub Pages
+SEO-Ready: HTML structure optimized for search engines
 
-### 1. Crea un nuovo repository su GitHub
-- Vai su github.com
-- Clicca su "New repository"
-- Nome: `bella-napoli` (o qualsiasi nome tu preferisca)
-- Lascia pubblico
-- NON aggiungere README, .gitignore o licenza
-- Clicca "Create repository"
+Optimized Performance: Clean and lightweight code
 
-### 2. Carica i file
-Hai due opzioni:
+Reservation Form: Functional table booking system
 
-#### Opzione A - Drag & Drop (più semplice)
-1. Apri il repository appena creato
-2. Clicca su "uploading an existing file"
-3. Trascina tutti i file (index.html, style.css, script.js)
-4. Scrivi un messaggio (es: "Initial commit")
-5. Clicca "Commit changes"
+📋 Sections
 
-#### Opzione B - Da terminale
-```bash
-# Naviga nella cartella dove hai salvato i file
+Navigation Bar: Fixed navigation menu with logo
+
+Hero Section: Main section with call-to-action
+
+Features: Key features of the restaurant
+
+Menu: Showcase of main dishes with prices
+
+About: Restaurant story and values
+
+Gallery: Photo gallery
+
+Contact: Booking form and contact information
+
+Footer: Links and additional information
+
+🚀 How to Publish on GitHub Pages
+1. Create a new repository on GitHub
+
+Go to github.com
+
+Click on "New repository"
+
+Name: bella-napoli (or any name you prefer)
+
+Set it to public
+
+DO NOT add README, .gitignore, or license
+
+Click "Create repository"
+
+2. Upload the files
+
+You have two options:
+
+Option A – Drag & Drop (easier)
+
+Open the newly created repository
+
+Click on "uploading an existing file"
+
+Drag all files (index.html, style.css, script.js)
+
+Write a commit message (e.g., "Initial commit")
+
+Click "Commit changes"
+
+Option B – Using Terminal
+# Navigate to the folder where your files are saved
 cd bella-napoli
 
-# Inizializza git
+# Initialize git
 git init
 
-# Aggiungi i file
+# Add files
 git add .
 
 # Commit
 git commit -m "Initial commit"
 
-# Collega al tuo repository (sostituisci USERNAME con il tuo username GitHub)
+# Connect to your repository (replace USERNAME with your GitHub username)
 git remote add origin https://github.com/NexoWebDeveloper/bella-napoli.git
 
 # Push
 git branch -M main
 git push -u origin main
-```
 
-### 3. Attiva GitHub Pages
-1. Nel repository, vai su "Settings"
-2. Nella sidebar sinistra, clicca "Pages"
-3. Sotto "Source", seleziona "main" branch
-4. Clicca "Save"
-5. Aspetta 1-2 minuti
+3. Enable GitHub Pages
 
-Il tuo sito sarà disponibile a:
-`https://nexowebdeveloper.github.io/bella-napoli/`
+In the repository, go to "Settings"
 
-## 🛠️ Personalizzazione
+In the left sidebar, click "Pages"
 
-### Colori
-Nel file `style.css`, modifica le variabili CSS all'inizio:
-```css
+Under "Source", select the "main" branch
+
+Click "Save"
+
+Wait 1–2 minutes
+
+Your website will be available at:
+https://nexowebdeveloper.github.io/bella-napoli/
+
+🛠️ Customization
+Colors
+
+In the style.css file, modify the CSS variables at the top:
+
 :root {
-    --primary-color: #d4145a;  /* Colore principale */
-    --secondary-color: #fbb03b; /* Colore secondario */
-    /* ... altre variabili */
+    --primary-color: #d4145a;  /* Primary color */
+    --secondary-color: #fbb03b; /* Secondary color */
+    /* ... other variables */
 }
-```
 
-### Contenuti
-Modifica il file `index.html` per cambiare:
-- Testi
-- Nomi dei piatti
-- Prezzi
-- Informazioni di contatto
+Content
 
-### Immagini
-Sostituisci i placeholder colorati con immagini reali:
-1. Aggiungi le tue immagini nella cartella
-2. Nel file `index.html` o `style.css`, sostituisci i background gradient con:
-```css
-background: url('nome-immagine.jpg');
+Edit index.html to change:
+
+Texts
+
+Dish names
+
+Prices
+
+Contact information
+
+Images
+
+Replace placeholder colors with real images:
+
+Add your images to the folder
+
+In index.html or style.css, replace background gradients with:
+
+background: url('image-name.jpg');
 background-size: cover;
-```
 
-## 📱 Compatibilità
+📱 Compatibility
 
-- ✅ Chrome
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Mobile browsers
+✅ Chrome
 
-## 📝 Licenza
+✅ Firefox
 
-Progetto creato da **Nexowebs** per uso portfolio.
+✅ Safari
 
----
+✅ Edge
 
-**Nexowebs** - Web Development Professionale
+✅ Mobile browsers
+
+Project created by Nexowebs for portfolio use.
+
+Nexowebs – Professional Web Development
